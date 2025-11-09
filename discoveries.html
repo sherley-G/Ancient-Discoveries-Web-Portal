@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ancient Indian Science Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Ancient Indian Science & Technology Dashboard</h1>
+
+  <!-- Bar Chart Section -->
+  <section>
+    <h2>Discoveries by Century</h2>
+    <canvas id="fieldChart" width="600" height="300"></canvas>
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h2>All Discoveries</h2>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Discovery</th>
+          <th>Source</th>
+          <th>Century</th>
+          <th>Description</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will populate -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
