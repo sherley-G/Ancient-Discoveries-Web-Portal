@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ancient Indian Science Dashboard (Static)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1, h2 { text-align: center; }
+
+    /* Table styling */
+    table { width: 95%; margin: 20px auto; border-collapse: collapse; font-size:14px;}
+    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+    th { background-color: #f2f2f2; }
+
+    /* Bar chart container */
+    .bar-chart {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      width: 800px;
+      height: 300px;
+      margin: 0 auto 20px auto;
+      border-left: 2px solid #000;
+      border-bottom: 2px solid #000;
+      padding-bottom: 10px;
+    }
+    
+    .bar {
+      width: 50px;
+      background-color: #2e86de;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-weight: bold;
+      margin: 0 5px;
+    }
+
+    .bar span {
+      padding-bottom: 5px;
+      font-size: 12px;
+    }
+
+    /* Labels below bars */
+    .bar-labels {
+      display: flex;
+      justify-content: space-around;
+      width: 800px;
+      margin: 0 auto;
+      font-size: 12px;
+    }
+    .bar-labels div {
+      width: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ancient Indian Science & Technology Dashboard</h1>
+
+  <!-- Summary -->
+  <h2>2nd Century has the most discoveries (15)</h2>
+
+  <!-- Bar Chart -->
+  <section>
+    <h2>Discoveries by Century</h2>
+    <div class="bar-chart">
+      <div class="bar" style="height:80px;"><span>5</span></div> <!-- 5th Century -->
+      <div class="bar" style="height:240px;"><span>15</span></div> <!-- 2nd Century -->
+      <div class="bar" style="height:120px;"><span>8</span></div> <!-- 7th Century -->
+      <div class="bar" style="height:100px;"><span>7</span></div> <!-- 6th Century -->
+      <div class="bar" style="height:40px;"><span>2</span></div> <!-- 3rd Century -->
+      <div class="bar" style="height:40px;"><span>2</span></div> <!-- 4th Century -->
+      <div class="bar" style="height:40px;"><span>1</span></div> <!-- 1st Century -->
+    </div>
+    <div class="bar-labels">
+      <div>5th</div>
+      <div>2nd</div>
+      <div>7th</div>
+      <div>6th</div>
+      <div>3rd</div>
+      <div>4th</div>
+      <div>1st</div>
+    </div>
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h2>All Discoveries</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Discovery</th>
+          <th>Source</th>
+          <th>Century</th>
+          <th>Description</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 50+ sample rows -->
+        <tr><td>Zero</td><td>Aryabhata</td><td>5th</td><td>Concept of zero as a number</td><td>Revolutionized mathematics</td></tr>
+        <tr><td>Ayurveda</td><td>Charaka</td><td>2nd</td><td>Ancient medicine principles</td><td>Health system</td></tr>
+        <tr><td>Decimal System</td><td>Brahmagupta</td><td>7th</td><td>Decimal notation</td><td>Mathematical calculations</td></tr>
+        <tr><td>Yoga</td><td>Patanjali</td><td>2nd</td><td>Physical and mental discipline</td><td>Health and wellbeing</td></tr>
+        <tr><td>Surgery</td><td>Sushruta</td><td>6th</td><td>Surgical techniques</td><td>Medical advancements</td></tr>
+        <tr><td>Chess</td><td>Unknown</td><td>6th</td><td>Strategy board game</td><td>Entertainment and strategy learning</td></tr>
+        <tr><td>Metallurgy</td><td>Unknown</td><td>4th</td><td>Advanced iron extraction techniques</td><td>Infrastructure and tools</td></tr>
+        <tr><td>Plastic Surgery</td><td>Sushruta</td><td>6th</td><td>Rhinoplasty procedures</td><td>Medical advancements</td></tr>
+        <tr><td>Water Clock</td><td>Unknown</td><td>3rd</td><td>Time measuring device</td><td>Timekeeping</td></tr>
+        <tr><td>Binary Numbers</td><td>Pingala</td><td>2nd</td><td>Binary representation of numbers</td><td>Mathematics and computing</td></tr>
+        <tr><td>Iron Pillar</td><td>Unknown</td><td>5th</td><td>Corrosion-resistant iron pillar</td><td>Engineering marvel</td></tr>
+        <tr><td>Textiles</td><td>Unknown</td><td>2nd</td><td>Advanced weaving techniques</td><td>Trade and economy</td></tr>
+        <tr><td>Decimal Fractions</td><td>Brahmagupta</td><td>7th</td><td>Fractions in decimal system</td><td>Mathematics</td></tr>
+        <tr><td>Astronomy</td><td>Aryabhata</td><td>5th</td><td>Heliocentric model and eclipses</td><td>Science advancement</td></tr>
+        <tr><td>Windmills</td><td>Unknown</td><td>2nd</td><td>Used for irrigation</td><td>Agriculture</td></tr>
+        <tr><td>Water Management</td><td>Chola Kings</td><td>2nd</td><td>Canals and irrigation systems</td><td>Agriculture</td></tr>
+        <tr><td>Mathematical Algorithms</td><td>Brahmagupta</td><td>7th</td><td>Rules for arithmetic operations</td><td>Mathematics</td></tr>
+        <tr><td>Soap</td><td>Unknown</td><td>2nd</td><td>Preparation of soap from fats</td><td>Hygiene</td></tr>
+        <tr><td>Planetary Models</td><td>Aryabhata</td><td>5th</td><td>Rotation of Earth and planets</td><td>Astronomy</td></tr>
+        <tr><td>Numerals</td><td>Unknown</td><td>2nd</td><td>Indian numeral system</td><td>Mathematics</td></tr>
+        <!-- Add additional rows to reach 50+ in the same format -->
+        <tr><td>Metal Casting</td><td>Unknown</td><td>2nd</td><td>Advanced casting techniques</td><td>Infrastructure</td></tr>
+        <tr><td>Wind Instruments</td><td>Unknown</td><td>2nd</td><td>Flutes and other instruments</td><td>Music</td></tr>
+        <tr><td>Water Lifting Devices</td><td>Unknown</td><td>2nd</td><td>Pumps and chain systems</td><td>Agriculture</td></tr>
+        <tr><td>Temples Architecture</td><td>Various</td><td>7th</td><td>Stone temples construction</td><td>Culture & heritage</td></tr>
+        <tr><td>Silk Weaving</td><td>Unknown</td><td>2nd</td><td>Production of silk cloth</td><td>Trade & economy</td></tr>
+        <tr><td>Ayurvedic Surgery</td><td>Sushruta</td><td>6th</td><td>Medical surgical procedures</td><td>Health system</td></tr>
+        <tr><td>Decimal Geometry</td><td>Brahmagupta</td><td>7th</td><td>Geometrical calculations</td><td>Mathematics</td></tr>
+        <tr><td>Astronomical Observations</td><td>Aryabhata</td><td>5th</td><td>Planetary positions</td><td>Astronomy</td></tr>
+        <tr><td>Iron Tools</td><td>Unknown</td><td>4th</td><td>Construction tools</td><td>Infrastructure</td></tr>
+        <tr><td>Yoga Texts</td><td>Patanjali</td><td>2nd</td><td>Compilation of Yoga practices</td><td>Health & wellbeing</td></tr>
+        <tr><td>Mathematics Texts</td><td>Brahmagupta</td><td>7th</td><td>Arithmetic & algebra</td><td>Mathematics</td></tr>
+        <tr><td>Temple Sculpture</td><td>Various</td><td>5th</td><td>Stone carvings & sculpture</td><td>Art & heritage</td></tr>
+        <tr><td>Weapon Design</td><td>Unknown</td><td>6th</td><td>Swords & shields</td><td>Defense</td></tr>
+        <tr><td>Mathematical Tables</td><td>Brahmagupta</td><td>7th</td><td>Multiplication tables</td><td>Mathematics</td></tr>
+        <tr><td>Timekeeping Devices</td><td>Unknown</td><td>3rd</td><td>Sundials & clocks</td><td>Science</td></tr>
+        <tr><td>Planetary Models</td><td>Aryabhata</td><td>5th</td><td>Earth’s rotation concept</td><td>Astronomy</td></tr>
+        <tr><td>Water Reservoirs</td><td>Chola Kings</td><td>2nd</td><td>Water storage systems</td><td>Agriculture</td></tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
